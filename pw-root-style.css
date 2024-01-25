@@ -1,0 +1,217 @@
+  :root {
+    --global-container-width: 1680px;
+    --loading-image: url(//packaging-worldz.myshopify.com/cdn/shop/t/3/assets/loading.svg?v=139510183042965767481705596141);
+    --color-black: #000;
+    --color-black-light: rgba(0, 0, 0, 0.7);
+    --color-white: #fff;
+    --color-gray: #757575;
+    --color-light-gray: #E9E9E9;
+    --color-dark-gray: #999999;
+    --color-valencia: #D33636;
+    --color-silver: #C4C4C4;
+    --color-snow: #F8F8F8;
+    --color-whisper: #E6E6E6;
+    --color-chelsea-cucumber: #81B154;
+    --color-fire-bush: #E49D49;
+    --color-green-success: #198754;
+    --color-red-error: #B00020;
+    --color-ghost-white: #F9F9F9;
+    --settings-color-background: #ffffff;
+    --color-img-placeholder-bg: #f2f2f2;
+    --link-color: #5ea3d9;
+    --settings-color-secondary-attention: #D33636;
+    --settings-color-secondary-success: #81B154;
+    --color-slider-arrow-background: #5ea3d9;
+    --color-slider-arrow-icon: #ffffff;
+    --color-slider-arrow-background-hover: #b2cf86;
+    --color-slider-arrow-icon-hover: #ffffff;
+    --color-overlay: #000000;
+    --color-background: var(--settings-color-background, var(--color-white));
+    --color-background-darken: #f8f8f8;
+    --color-secondary-attention: var(--settings-color-secondary-attention, var(--color-valencia));
+    --color-secondary-success: var(--settings-color-secondary-success, var(--color-chelsea-cucumber));
+    --color-settings-text-primary: #000000;
+    --color-settings-text-secondary: #000000;
+    --color-settings-heading: #5ea3d9;
+    --color-settings-star-rating-icon: #debd06;
+    --color-settings-star-rating-icon-rgba: rgba(222, 189, 6, 0.15);
+    --color-settings-star-rating-text: #000000;
+    --color-settings-label-base: #ffffff;
+    --color-settings-label-primary: #ffffff;
+    --color-settings-label-secondary: #000000;
+    --color-settings-label-sold-out: #000000;
+    --color-text-primary: var(--color-settings-text-primary, var(--color-black));
+    --color-text-secondary: var(--color-settings-text-secondary, var(--color-gray));
+    --color-heading: var(--color-settings-heading, var(--color-black));
+    --color-secondary-text: var(--color-settings-text-secondary, var(--color-gray));
+    --color-text-attention: var(--color-secondary-attention);
+    --color-text-success: var(--color-secondary-success);
+    --color-label-base: var(--color-settings-label-base);
+    --color-label-primary: var(--color-settings-label-primary);
+    --color-label-secondary: var(--color-settings-label-secondary);
+    --color-label-sold-out: var(--color-settings-label-sold-out);
+    --color-star-rating-icon: var(--color-settings-star-rating-icon);
+    --color-star-rating-icon-rgba: var(--color-settings-star-rating-icon-rgba);
+    --color-star-rating-text: var(--color-settings-star-rating-text);
+    --settings-button-text-color-primary: #ffffff;
+    --settings-button-background-color-primary: #5ea3d9;
+    --settings-button-border-color-primary: #ffffff;
+    --settings-button-text-color-primary-hover: #ffffff;
+    --settings-button-background-color-primary-hover: #b2cf86;
+    --settings-button-border-color-primary-hover: #ffffff;
+    --button-text-color-primary: var(--settings-button-text-color-primary);
+    --button-background-color-primary: var(--settings-button-background-color-primary);
+    --button-border-color-primary: var(--settings-button-border-color-primary);
+    --button-text-color-primary-hover: var(--settings-button-text-color-primary-hover);
+    --button-background-color-primary-hover: var(--settings-button-background-color-primary-hover);
+    --button-border-color-primary-hover: var(--settings-button-border-color-primary-hover);
+    --settings-button-text-color-secondary: #ffffff;
+    --settings-button-background-color-secondary: #5ea3d9;
+    --settings-button-border-color-secondary: #ffffff;
+    --settings-button-text-color-secondary-hover: #ffffff;
+    --settings-button-background-color-secondary-hover: #b2cf86;
+    --settings-button-border-color-secondary-hover: #b2cf86;
+    --button-text-color-secondary: var(--settings-button-text-color-secondary);
+    --button-background-color-secondary: var(--settings-button-background-color-secondary);
+    --button-border-color-secondary: var(--settings-button-border-color-secondary);
+    --button-text-color-secondary-hover: var(--settings-button-text-color-secondary-hover);
+    --button-background-color-secondary-hover: var(--settings-button-background-color-secondary-hover);
+    --button-border-color-secondary-hover: var(--settings-button-border-color-secondary-hover);
+    --settings-button-text-color-play: #000000;
+    --settings-button-background-color-play: #ffffff;
+    --settings-button-text-color-play-hover: #ffffff;
+    --settings-button-background-color-play-hover: #5ea3d9;
+    --settings-product-card-button-text-color: #ffffff;
+    --settings-product-card-button-background-color: #000000;
+    --settings-product-card-button-border-color: #000000;
+    --settings-product-card-button-text-color-hover: #000000;
+    --settings-product-card-button-background-color-hover: #ffffff;
+    --settings-product-card-button-border-color-hover: #000000;
+    --button-text-color-play: var(--settings-button-text-color-play);
+    --button-background-color-play: var(--settings-button-background-color-play);
+    --button-text-color-play-hover: var(--settings-button-text-color-play-hover);
+    --button-background-color-play-hover: var(--settings-button-background-color-play-hover);
+    --settings-button-icon-color-social: #000000;
+    --settings-button-background-color-social: #ffffff;
+    --settings-button-border-color-social: #b2cf86;
+    --settings-button-icon-color-social-hover: #ffffff;
+    --settings-button-background-color-social-hover: #5ea3d9;
+    --settings-button-border-color-social-hover: #5ea3d9;
+    --button-icon-color-social: var(--settings-button-icon-color-social);
+    --button-background-color-social: var(--settings-button-background-color-social);
+    --button-border-color-social: var(--settings-button-border-color-social);
+    --button-icon-color-social-hover: var(--settings-button-icon-color-social-hover);
+    --button-background-color-social-hover: var(--settings-button-background-color-social-hover);
+    --button-border-color-social-hover: var(--settings-button-border-color-social-hover);
+    --product-card-button-text-color: var(--settings-product-card-button-text-color);
+    --product-card-button-background-color: var(--settings-product-card-button-background-color);
+    --product-card-button-border-color: var(--settings-product-card-button-border-color);
+    --product-card-button-text-color-hover: var(--settings-product-card-button-text-color-hover);
+    --product-card-button-background-color-hover: var(--settings-product-card-button-background-color-hover);
+    --product-card-button-border-color-hover: var(--settings-product-card-button-border-color-hover);
+    --color-settings-preloader-primary: #e6e6e6;
+    --color-settings-preloader-secondary: #000000;
+    --background-color-settings-preloader: rgba(255, 255, 255, 0.35);
+    --color-preloader-primary: var(--color-settings-preloader-primary, var(--color-whisper));
+    --color-preloader-secondary: var(--color-settings-preloader-secondary, var(--color-black));
+    --background-color-preloader: var(--background-color-settings-preloader);
+    --settings-product-card-border-color: #ececec;
+    --settings-product-card-border-color-hover: #c4c4c4;
+    --color-border-primary: #000000;
+    --color-border-secondary: #E6E6E6;
+    --color-border-thirdly: #949494;
+    --product-card-border-color: var(--settings-product-card-border-color);
+    --product-card-border-color-hover: var(--settings-product-card-border-color-hover);
+    --settings-background-label-color-base: #b2cf86;
+    --settings-background-label-color-primary: #b2cf86;
+    --settings-background-label-color-secondary: #c5cd91;
+    --settings-background-label-color-sold-out: #f2f2f2;
+    --settings-color-product-card-text: #000000;
+    --color-background-label-base: var(--settings-background-label-color-base);
+    --color-background-label-primary: var(--settings-background-label-color-primary);
+    --color-background-label-secondary: var(--settings-background-label-color-secondary);
+    --color-background-label-sold-out: var(--settings-background-label-color-sold-out);
+    --color-background-quick-buttons: #ffffff;
+    --color-text-quick-buttons: #000;
+    --color-compare-sticky-button-bg: #000;
+    --color-compare-sticky-button-color: #fff;
+    --color-pdp-compare-button-bg: #fff;
+    --color-pdp-compare-button-color: #000;
+  }
+
+  @font-face {
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("//packaging-worldz.myshopify.com/cdn/fonts/nunito_sans/nunitosans_n4.2b61d9dcf54d8ac8282cfd1ebb6964c79a7efcd1.woff2?h1=cGFja2FnaW5nLXdvcmxkei5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=cde249b824a4897bf008524f89f35e2963d97200f7bebe4b437736e1eb350f65") format("woff2"),
+      url("//packaging-worldz.myshopify.com/cdn/fonts/nunito_sans/nunitosans_n4.420cbf408f643f8ff8fd948b99c10dade8b6af79.woff?h1=cGFja2FnaW5nLXdvcmxkei5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=9f4404d740c074109a943c55d713353e91523fd8a9cd17db2ffa9edf87271f38") format("woff");
+  }
+
+  @font-face {
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("//packaging-worldz.myshopify.com/cdn/fonts/nunito_sans/nunitosans_n4.2b61d9dcf54d8ac8282cfd1ebb6964c79a7efcd1.woff2?h1=cGFja2FnaW5nLXdvcmxkei5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=cde249b824a4897bf008524f89f35e2963d97200f7bebe4b437736e1eb350f65") format("woff2"),
+      url("//packaging-worldz.myshopify.com/cdn/fonts/nunito_sans/nunitosans_n4.420cbf408f643f8ff8fd948b99c10dade8b6af79.woff?h1=cGFja2FnaW5nLXdvcmxkei5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=9f4404d740c074109a943c55d713353e91523fd8a9cd17db2ffa9edf87271f38") format("woff");
+  }
+
+  @font-face {
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url("//packaging-worldz.myshopify.com/cdn/fonts/nunito_sans/nunitosans_n7.5bd4fb9346d13afb61b3d78f8a1e9f31b128b3d9.woff2?h1=cGFja2FnaW5nLXdvcmxkei5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=46405c82741f084089ff334577fa9b4aa3e9a881be58f260cb6a062a1738afbd") format("woff2"),
+      url("//packaging-worldz.myshopify.com/cdn/fonts/nunito_sans/nunitosans_n7.2bcf0f11aa6af91c784a857ef004bcca8c2d324d.woff?h1=cGFja2FnaW5nLXdvcmxkei5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=e04937190479d3789f007566aa2e4834366005c8cfaed03a9e363856478f38b7") format("woff");
+  }
+
+  @font-face {
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+    src: url("//packaging-worldz.myshopify.com/cdn/fonts/nunito_sans/nunitosans_i4.e88a2041a6cfbeacffb96db0e8efdfaaa38ddc5c.woff2?h1=cGFja2FnaW5nLXdvcmxkei5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=4cc548d66624ceaac681ca3aeab3a69e7566a50aab73c55ba975b5e8eeee4693") format("woff2"),
+      url("//packaging-worldz.myshopify.com/cdn/fonts/nunito_sans/nunitosans_i4.2c3733ccdf579e6e89e929a950e6a93484fdf6b4.woff?h1=cGFja2FnaW5nLXdvcmxkei5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=36050bfc7662f063875509aa2c023b030702bf800b2bc39a50ec76079e423466") format("woff");
+  }
+
+  @font-face {
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+    src: url("//packaging-worldz.myshopify.com/cdn/fonts/nunito_sans/nunitosans_i7.975ea93f521412ef99ca1e2e434d8ca6a5cf77e7.woff2?h1=cGFja2FnaW5nLXdvcmxkei5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=a65532f458632e580737c37eb89e8567ff593c82a7309e0461a2701e99644183") format("woff2"),
+      url("//packaging-worldz.myshopify.com/cdn/fonts/nunito_sans/nunitosans_i7.83b70272d04b71e88f25fc6834dc9b88e4ba4e95.woff?h1=cGFja2FnaW5nLXdvcmxkei5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=cd64e256efcec7ea7c4b62fa928c74d1da8941f6ec82bcb653cbe7f585806051") format("woff");
+  }
+
+  :root {
+    --body-font-size: 16px;
+    --body-font-size-without-unit: 16;
+    --heading-font-size: 16px;
+    --base-font-family: "Nunito Sans", sans-serif;
+    --heading-font-family: "Nunito Sans", sans-serif;
+    --heading-font-weight: 400;
+  }
+
+  :root {
+    --product-card-object-fit: cover;
+  }
+
+  :root {
+    --sticky-sidebar-offset-top: 40px;
+  }
+
+  @media (-moz-touch-enabled: 0),
+  (hover: hover) {
+    body * {
+      scrollbar-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.0);
+    }
+
+    body *::-webkit-scrollbar-track {
+      background-color: rgba(0, 0, 0, 0.0);
+    }
+
+    body *::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+  }
