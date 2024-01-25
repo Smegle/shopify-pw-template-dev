@@ -1,0 +1,20 @@
+    :root {
+      --header-position: sticky;
+      --header-background: #ffffff;
+      --header-mobile-menu-bg: #ffffff;
+      --header-text-color: #000000;
+      --header-transparent-text-color: #ffffff;
+      --header-text-color-half: rgba(0, 0, 0, 0.55);
+      --header-icon-color: #000000;
+      --header-transparent-icon-color: #000000;
+      --header-count-text-color: #ffffff;
+      --header-transparent-count-text-color: #000000;
+      --header-count-text-bg: #b2cf86;
+      --header-transparent-count-text-bg: #ffffff;
+      --header-megamenu-overlay: ;
+      --header-megamenu-image-text: #fafafa;
+      --header-height-sticky: var(--header-height);
+      --header-border-color: #e6e6e6;
+      --header-box-shadow: 0px 4px 11px 0px rgb(0 0 0 / 10%);
+      ;
+    }
